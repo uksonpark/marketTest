@@ -1,4 +1,5 @@
 const login = document.createElement("div");
+const contentLogin = document.querySelector(".content");
 
 login.classList.add("content-login");
 login.innerHTML = `<form class="login" action="#" method="post">
@@ -19,4 +20,4 @@ login.innerHTML = `<form class="login" action="#" method="post">
 <span>구글 로그인</span>
 </button>`;
 
-export default login;
+contentLogin.appendChild(login);
