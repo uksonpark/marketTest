@@ -1,0 +1,17 @@
+{
+  "name": "market",
+  "version": "1.0.0",
+  "description": "Used Market Clone with VanillaJS",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
